@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sophomore CS Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gradient-to-br from-gray-900 to-purple-900 text-white flex justify-center items-center min-h-screen p-4">
+    <div class="bg-white/10 backdrop-blur-lg rounded-xl shadow-2xl p-8 max-w-2xl w-full border border-white/10">
+      <div class="flex flex-col md:flex-row items-center gap-6 mb-8">
+        <img
+          src="https://source.unsplash.com/150x150/?student,computer"
+          alt="Profile Picture"
+          class="rounded-full w-32 h-32 border-4 border-purple-500/50 shadow-lg"
+        />
+        <div class="text-center md:text-left">
+          <h1 class="text-3xl font-semibold text-purple-300">Favour-Egeonu Victor</h1>
+          <p class="text-gray-400">Sophomore Computer Science Student</p>
+        </div>
+      </div>
+
+      <div class="mb-8">
+        <h2 class="text-2xl font-semibold text-purple-300 mb-4">Introduction</h2>
+        <p class="text-gray-300 leading-relaxed">
+          Hello! I'm Victor, a passionate sophomore at [University Name] majoring in Computer Science. I'm eager to learn and explore the world of technology, with a particular interest in [mention specific interests like AI, web development, cybersecurity, etc.]. I'm currently seeking an internship to gain practical experience and contribute to real-world projects.
+        </p>
+      </div>
+
+      <div class="mb-8">
+        <h2 class="text-2xl font-semibold text-purple-300 mb-4">Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-black/20 rounded-lg p-4 border border-white/5">
+            <h3 class="text-lg font-semibold text-purple-200 mb-2">Programming Languages</h3>
+            <ul class="list-disc list-inside text-gray-300 space-y-1">
+              <li>Python</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>C++</li>
+            </ul>
+          </div>
+          <div class="bg-black/20 rounded-lg p-4 border border-white/5">
+            <h3 class="text-lg font-semibold text-purple-200 mb-2">Technologies & Tools</h3>
+            <ul class="list-disc list-inside text-gray-300 space-y-1">
+              <li>Git</li>
+              <li>HTML/CSS</li>
+              <li>React</li>
+              <li>SQL</li>
+              <li>Linux</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-8">
+        <h2 class="text-2xl font-semibold text-purple-300 mb-4">Projects</h2>
+        <div class="space-y-4">
+          <div class="bg-black/20 rounded-lg p-4 border border-white/5">
+            <h3 class="text-lg font-semibold text-purple-200 mb-2">Project 1: [Project Name]</h3>
+            <p class="text-gray-300 mb-2">
+              [Brief description of the project, technologies used, and its purpose.]
+            </p>
+            <a href="#" class="text-purple-400 hover:text-purple-300 transition-colors">View Project</a>
+          </div>
+          <div class="bg-black/20 rounded-lg p-4 border border-white/5">
+            <h3 class="text-lg font-semibold text-purple-200 mb-2">Project 2: [Project Name]</h3>
+            <p class="text-gray-300 mb-2">
+              [Brief description of the project, technologies used, and its purpose.]
+            </p>
+            <a href="#" class="text-purple-400 hover:text-purple-300 transition-colors">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-semibold text-purple-300 mb-4">Contact</h2>
+        <p class="text-gray-300">Email: Name@example.com</p>
+        <p class="text-gray-300">LinkedIn: linkedin.com/in/Victor Favour</p>
+        <p class="text-gray-300">GitHub: github.com/V3ct0rfav</p>
+      </div>
+    </div>
+  </body>
+</html>
