@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age to Seconds Converter</title>
+    <script>
+        function calculateAgeInSeconds() {
+            // Get the user's age from the input field
+            let age = document.getElementById("ageInput").value;
+
+            // Check if the input is valid
+            if (age === "" || isNaN(age)) {
+                alert("Please enter a valid number for your age.");
+                return; // Stop the function if the input is invalid
+            }
+
+            // Convert age to a Number, because input field returns string
+            age = Number(age);
+
+            // Calculate the number of seconds
+            let seconds = age * 365 * 24 * 60 * 60;
+
+            // Display the result
+            document.getElementById("result").innerHTML = "Your age in seconds is: " + seconds;
+        }
+    </script>
+</head>
+<body>
+    <h2>Age to Seconds Converter</h2>
+    <label for="ageInput">Enter your age: </label>
+    <input type="text" id="ageInput" placeholder="Enter your age">
+    <br><br>
+    <button onclick="calculateAgeInSeconds()">Calculate</button>
+    <p id="result"></p>
+</body>
+</html>
